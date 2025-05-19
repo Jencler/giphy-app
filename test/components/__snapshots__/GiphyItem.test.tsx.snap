@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Componente GiphyItem Debe de hacer match con el snapshot 1`] = `
+<div>
+  <article
+    class="card-giphy"
+  >
+    <h3>
+      Disney Pixar GIF by Disney+
+    </h3>
+    <img
+      alt="Disney Pixar GIF by Disney+"
+      src="https://media3.giphy.com/media/cjudF7TsDnKsqTVxAL/giphy.gif?cid=58ff979es5to6cuh2fwn99qxgl2wib8n2vmaevaye42ne3hw&ep=v1_gifs_search&rid=giphy.gif&ct=g"
+    />
+  </article>
+</div>
+`;
