@@ -5,7 +5,7 @@ export interface Gifs {
   title: string;
   image: string;
 }
-const API_KEY = "WXM03H9JcLJFMDG76xZeapiklSjBzmDG";
+const API_KEY = import.meta.env.VITE_POKE_API_KEY;
 const LIMIT = 10;
 
 export const getGiphy = async (category: string): Promise<Gifs[]> => {
